@@ -1,0 +1,49 @@
+body{
+	background: #f5d9d5;
+	font-family: 'Courier Prime', monospace;
+
+}
+ .blurb h1{
+	color:#a33151;
+	font-size: 3.5rem;
+
+}
+.blurb  p{
+	color:#663f4c;
+	font-size:1.125rem;
+	line-height: 2;
+}
+.content{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+#mainNavbar{
+	font-size: 1.5rem;
+font-weight: 100;
+}
+
+#mainNavbar .navbar-brand{
+		font-size: 1.5rem;
+        color:#a33151;
+}
+
+#mainNavbar .nav-link:hover {
+	color: #a33151;
+}
+#mainNavbar .nav-link{
+	color:white;
+}
+#headGroup span{
+	color:#a33151;
+}
+#headGroup h1{
+	font-weight:100;
+	font-size: 4rem;
+}
+@media (max-width:1200px){
+	#headGroup h1{
+	font-weight:100;
+	font-size: 3rem;
+}
+}
